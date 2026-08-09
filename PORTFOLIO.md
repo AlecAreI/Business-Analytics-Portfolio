@@ -429,7 +429,3 @@ The workbook includes sections for:
 - Worked examples
 
 ---
-
-## Additional Coursework
-
-Additional coursework has included hypothesis testing, comparative statistical analysis, and ANOVA. Those topics are not presented here as reconstructed case studies unless the original numerical inputs and outputs are available for verification. This portfolio prioritizes defensible analysis over padding the repository with unsupported examples.
