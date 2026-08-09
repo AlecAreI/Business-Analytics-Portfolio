@@ -51,9 +51,9 @@ Use a **z interval** when the population standard deviation is known.
 
 Use the sample proportion:
 
-\[
-\hat p=\frac{x}{n}
-\]
+Sample proportion = number of successes / total sample size
+
+p̂ = x / n
 
 and its standard error to construct the interval.
 
