@@ -42,15 +42,11 @@ What is the probability that an observation exceeds **13**?
 
 For a continuous normally distributed variable, standardize or use the cumulative normal distribution and calculate the upper-tail probability.
 
-\[
-P(X>13)=1-P(X\le 13)
-\]
+**Calculation:** `P(X > 13) = 1 - P(X ≤ 13)`
 
 ### Result
 
-\[
-P(X>13)=0.946573
-\]
+**P(X > 13) = 0.946573**
 
 **Answer: 94.66%**
 
@@ -75,15 +71,11 @@ What proportion is expected to exceed **0.770**?
 
 This is another upper-tail normal-distribution problem:
 
-\[
-P(X>0.770)=1-P(X\le0.770)
-\]
+**Calculation:** `P(X > 0.770) = 1 - P(X ≤ 0.770)`
 
 ### Result
 
-\[
-P(X>0.770)=0.066807
-\]
+**P(X > 0.770) = 0.066807**
 
 **Answer: 6.68%**
 
@@ -108,9 +100,7 @@ What is the probability of observing **exactly one** event?
 
 Because there is a fixed number of trials and each trial has a constant probability, the appropriate model is the binomial distribution.
 
-\[
-P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}
-\]
+**Binomial probability formula:** `P(X = k) = C(n,k) × p^k × (1-p)^(n-k)`
 
 with:
 
@@ -120,9 +110,7 @@ with:
 
 ### Result
 
-\[
-P(X=1)=0.385137
-\]
+**P(X = 1) = 0.385137**
 
 **Answer: 38.51%**
 
@@ -159,21 +147,15 @@ What is the probability that a sample mean is below **49**?
 
 For the sampling distribution of the mean:
 
-\[
-SE=\frac{\sigma}{\sqrt{n}}
-\]
+**Standard error:** `SE = σ / √n`
 
-\[
-SE=\frac{8}{\sqrt{100}}=0.8
-\]
+**Calculation:** `SE = 8 / √100 = 0.8`
 
 The probability is then evaluated using the sampling distribution centered at 50 with a standard error of 0.8.
 
 ### Result
 
-\[
-P(\bar X<49)=0.105650
-\]
+**P(X̄ < 49) = 0.105650**
 
 **Answer: 10.56%**
 
@@ -247,15 +229,11 @@ Key calculations:
 
 ### Result
 
-\[
-1200 \pm 24.9059
-\]
+**Point estimate ± margin of error:** `1200 ± 24.9059`
 
 **90% confidence interval:**
 
-\[
-(1175.09,\ 1224.91)
-\]
+**90% confidence interval: 1175.09 to 1224.91**
 
 ### Interpretation
 
@@ -286,9 +264,7 @@ Calculated values:
 
 **90% confidence interval:**
 
-\[
-(1175.33,\ 1224.67)
-\]
+**90% confidence interval: 1175.33 to 1224.67**
 
 ### Comparison
 
@@ -314,9 +290,7 @@ Estimate the population proportion.
 
 First calculate the sample proportion:
 
-\[
-\hat p=\frac{1197}{3794}=0.315498
-\]
+**Sample proportion:** `p̂ = 1197 / 3794 = 0.315498`
 
 Then use a z-based confidence interval for a proportion.
 
@@ -328,9 +302,7 @@ Calculated values:
 
 ### Result
 
-\[
-(0.300711,\ 0.330285)
-\]
+**95% confidence interval: 0.300711 to 0.330285**
 
 **95% confidence interval: 30.07% to 33.03%**
 
@@ -356,9 +328,7 @@ The sample-size calculation uses the critical z value, estimated standard deviat
 
 Calculated raw sample size:
 
-\[
-n=249.3429
-\]
+**Calculated sample size:** `n = 249.3429`
 
 ### Result
 
@@ -388,9 +358,7 @@ When no better estimate is available, \(p=0.50\) is commonly used because it pro
 
 Raw result:
 
-\[
-n=384.1459
-\]
+**Calculated sample size:** `n = 384.1459`
 
 ### Result
 
